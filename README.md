@@ -31,7 +31,7 @@ Kaggle provides a data dictionary detailing all of the features of the dataset. 
 
 # Key Steps
 
-## Importing Libraries
+## Importing Libraries and creating a project environment setup
 Essential libraries like pandas, numpy, matplotlib, and scikit-learn are imported.
 
 ## Loading the Data
