@@ -22,12 +22,12 @@ The evaluation metric for this competition is the RMSLE (root mean squared log e
 For more on the evaluation of this project check : 
 https://www.kaggle.com/c/bluebook-for-bulldozers/overview/evaluation
 
-**Note :** The goal for most regression evalution metrics is to minimize the error . For example , our goal for this project will be to build a mlachine learning model whic minimises RMSLE.
+**Note :** The goal for most regression evalution metrics is to minimize the error . For example , our goal for this project will be to build a machine learning model which minimises RMSLE.
 
 
 ## 4. Features
 
-Kaggle provides a data dictionary detailing all of the featurews of the dataset. You can view this data dictionary on google sheets: 
+Kaggle provides a data dictionary detailing all of the features of the dataset. You can view this data dictionary on google sheets: 
 
 # Key Steps
 
@@ -53,7 +53,7 @@ The data is split into training and validation sets using `train_test_split` fro
 Different machine learning models are trained, including `RandomForestRegressor`, with hyperparameter tuning and cross-validation.
 
 ## Model Evaluation
-The performance of the models is evaluated using metrics such as Mean Absolute Error (MAE).
+The performance of the models is evaluated using metrics such as Root Mean Squared Log Error(RMSLE).
 
 ## Feature Importance
 Analyzing feature importance to understand which features have the most significant impact on the model's predictions.
