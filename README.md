@@ -28,3 +28,44 @@ https://www.kaggle.com/c/bluebook-for-bulldozers/overview/evaluation
 ## 4. Features
 
 Kaggle provides a data dictionary detailing all of the featurews of the dataset. You can view this data dictionary on google sheets: 
+
+# Key Steps
+
+## Importing Libraries
+Essential libraries like pandas, numpy, matplotlib, and scikit-learn are imported.
+
+## Loading the Data
+The dataset is loaded from a CSV file using `pandas.read_csv()`.
+
+## Exploratory Data Analysis (EDA)
+Basic EDA is performed to understand the dataset, including inspecting the first few rows and checking for missing values.
+
+## Data Cleaning
+Handling missing data by filling in missing values or dropping columns with significant amounts of missing data.
+
+## Feature Engineering
+Converting columns with object data type to categorical data types and extracting useful features from existing columns.
+
+## Splitting the Data
+The data is split into training and validation sets using `train_test_split` from scikit-learn.
+
+## Model Selection and Training
+Different machine learning models are trained, including `RandomForestRegressor`, with hyperparameter tuning and cross-validation.
+
+## Model Evaluation
+The performance of the models is evaluated using metrics such as Mean Absolute Error (MAE).
+
+## Feature Importance
+Analyzing feature importance to understand which features have the most significant impact on the model's predictions.
+
+## Final Thoughts and Future Work
+Suggestions for further model improvements and other machine learning models to try, such as CatBoost or XGBoost.
+
+# Results
+The trained models are evaluated based on their performance, and feature importance is analyzed to understand the impact of different features on the auction prices.
+
+# Future Work
+- Experiment with other machine learning models like CatBoost and XGBoost
+- Further feature engineering to extract more meaningful features
+- Hyperparameter tuning for better model performance
+
